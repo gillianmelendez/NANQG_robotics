@@ -23,6 +23,7 @@ void set_up()
     set_servo_position(one,1690);
     msleep(200);
 
+    //this is a pause
     msleep(800);
 
 
