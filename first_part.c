@@ -104,7 +104,7 @@ void first_part()
     ao();
 
     //once bumped go back  
-    backward();
+    backward(); //backward function
     ao();
 
     //port 1
@@ -130,7 +130,7 @@ void first_part()
     msleep(200);
 
     //go forward to pipe
-    straightpipe();
+    straightpipe(); //straight function
     msleep(500);
     ao();
 
@@ -156,6 +156,8 @@ backward_pipe();
 //turn right
 right();
 msleep(1000);
+    
+ //Here we have added some new functions to code
 
 
 
