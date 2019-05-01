@@ -15,7 +15,7 @@ void set_up()
     set_servo_position(mini,1905);
     msleep(200);
 
-    msleep(900);
+    msleep(900); //wait
 
 
 
@@ -97,7 +97,7 @@ void first_part()
 
 
     //immediate left turn 
-    left_2 ();
+    left_2 ();//left
 
     //forward towards black tape and pipe
     straight_pipe ();
